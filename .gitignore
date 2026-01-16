@@ -1,0 +1,15 @@
+# Node.js
+node_modules/
+.env
+
+# React Native
+# Build output
+android/.gradle/
+android/app/build/
+iOS/Pods/
+
+# Other
+.DS_Store
+*.log
+*.swp
+*.swo

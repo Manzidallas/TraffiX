@@ -1,11 +1,14 @@
-import React from 'react';
+import { StatusBar } from 'expo-status-bar';
 
-const App: React.FC = () => {
-    return (
-        <div>
-            <h1>Main Component</h1>
-        </div>
-    );
-};
+import './global.css';
 
-export default App;
+import { HomeScreen } from './components/HomeScreen';
+
+export default function App() {
+  return (
+    <>
+      <HomeScreen />
+      <StatusBar style="dark" />
+    </>
+  );
+}

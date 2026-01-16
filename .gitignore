@@ -1,15 +1,23 @@
-# Node.js
 node_modules/
-.env
+.expo/
+dist/
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
 
-# React Native
-# Build output
-android/.gradle/
-android/app/build/
-iOS/Pods/
 
-# Other
+
+
+ios
+android
+
+# macOS
 .DS_Store
-*.log
-*.swp
-*.swo
+
+# Temporary files created by Metro to check the health of the file watcher
+.metro-health-check*
